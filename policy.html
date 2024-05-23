@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anuely</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="banner-header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="https://book.squareup.com/appointments/btl9mw0viqqe2r/location/LH2NHFX5H0XHK/services" target="_blank">SERVICES</a></li>
+                    <li><a href="policy.html">POLICY</a></li>
+                    <li><a href="care.html">BEFORE & AFTERCARE</a></li>
+                    <li><a href="healing.html">STAGES OF HEALING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box-faq">
+            <a href="https://book.squareup.com/appointments/btl9mw0viqqe2r/location/LH2NHFX5H0XHK/services" target="_blank" class="bookNow-btn">Book Now</a>
+        </div>
+    </section>
+
+    <!---------- Policy Content ---------->
+    
+    <section class="policy-content">
+        <div class="row">
+        <div class="policy-left">
+            <h2>Policy</h2>
+
+            <h3>Non-refundable booking Policy<br> 
+                <br>We ask that you please reschedule or cancel at least 3 days before the beginning of your appointment.</h3>
+                <br>
+            1. Definition of Booking Fee:
+                A booking fee is a non-refundable amount charged to secure a reservation or hold a spot for a specific service or appointment.
+            <br>
+            <br>
+            2. Purpose of the Booking Fee:
+                The booking fee is intended to commit both the client and our company to the agreed reservation, covering resources costs and compensation to our staff should a client no-show or have a late cancellation.
+            <br>
+            <br>
+            3. Amount and Payment of the Booking Fee:
+                The booking fee amount will be communicated prior to the transaction, payable at the time of reservation via online booking or invoice.
+            <br>
+            <br>
+            4. Non-Refundable Nature of the Booking Fee:
+                Once the online booking fee or invoice is paid, it becomes non-refundable under any circumstances, including cancellation or modification of the reservation.
+            <br>
+            <br>
+            5. Rescheduling Allowance:
+                Clients are permitted to reschedule their appointment once, provided the request is made at least 72 hours before the original appointment time.
+            <br>
+            <br>
+            6. Time Constraint for Rescheduled Appointment:
+                The rescheduled appointment must be scheduled within the next 30 days following the original appointment date. Failure to meet this constraint will require the payment of a new booking fee.
+            <br>
+            <br>
+            7. Use of the Booking Fee:
+                The booking fee will be deducted from the total cost of the reserved service, with the client responsible for paying any remaining balance the day of service.
+            <br>
+            <br>
+            8. Exceptions and Special Considerations:
+                We have a strict NON-REFUNDABLE POLICY. However, there rare exceptions to the rescheduling allowance and time constraint may be considered on a case-by-case basis, subject to written agreement between the client and our company.
+            <br>
+            <br>
+            9. Confirmation of Reservation:
+                Reservation will be confirmed upon receipt of the booking fee. Until then, the reservation remains tentative and subject to cancellation without prior notice.
+            <br>
+            <br>
+            10. Cancellation Due to Unpaid Invoice:
+                Clients are required to pay the invoice at least 72 hours before their scheduled appointment. Failure to pay the invoice within this timeframe may result in the cancellation of the appointment at any time without prior notice.
+            <br>
+            <br>
+            11. Communication of the Booking Fee Policy:
+                Our non-refundable booking fee policy, including the allowance for one rescheduling and the time constraint for rescheduled appointments, will be clearly communicated on our website and booking platforms.
+            <br>
+            <br>
+            12. Acknowledgment and Acceptance:
+                By proceeding with the reservation and payment of the booking fee, clients acknowledge and accept the terms outlined in this non-refundable booking fee policy, including the rescheduling allowance, time constraint, and the requirement of a new fee if the rescheduled appointment is beyond the specified 30-day period.
+            <br>
+            <h3><br>CUSTOM DESIGNS POLICY</h3>
+            <br>
+            For customers with custom designs, the design fee and booking fee are also governed by the non-refundable policy. Three design adjustments are allowed at no additional cost. However, each additional adjustment that exceeds this limit will be charged at a rate of $10 per adjustment.
+            <br>
+            
+            
+        </div>
+    </div>
+    </section> 
+        <!-------- footer ---------->
+
+<section class="footer">
+    <h4>Follow Us</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/anuelyllc/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/anuelyllc/"><i class="fa fa-instagram"></i></a>
+    </div>
+</section>    
+
+<!----JavaScript for toggle menu---->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script> 
+
+</body>
+</html>

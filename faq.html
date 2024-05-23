@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anuely</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="banner-header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="https://book.squareup.com/appointments/btl9mw0viqqe2r/location/LH2NHFX5H0XHK/services" target="_blank">SERVICES</a></li>
+                    <li><a href="policy.html">POLICY</a></li>
+                    <li><a href="care.html">BEFORE & AFTERCARE</a></li>
+                    <li><a href="healing.html">STAGES OF HEALING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box-faq">
+            <a href="https://book.squareup.com/appointments/btl9mw0viqqe2r/location/LH2NHFX5H0XHK/services" target="_blank" class="bookNow-btn">Book Now</a>
+        </div>
+    </section>
+
+    <!---------- FAQ Content ---------->
+    
+    <section class="policy-content">
+        <div class="row">
+        <div class="policy-left">
+            <h2>FAQ</h2>
+
+            <h3>DO you accept walk-ins?</h3>
+            <p>Sorry, not at this time. We are currently only accepting appointments only.</p>
+            <br>
+            <h3>How should I prepare for my procedure?</h3>
+            <p>Please refer to <a href="care.html" target="_blank">Before & Aftercare</a>.</p>
+            <br>
+            <h3>Do you take custom designs?</h3>
+            <p>Yes! We love custom designs. Please allow us at least a minimum of 3 days to customize your image.</p>
+            <br>
+            <h3>How much do you charge for custom designs?</h3>
+            <p>Yes, custom designs has an additional fee ranging from $30 - $60 that has to be paid before drafting starts.</p>
+            <br>
+            <h3>Do you provide numbing?</h3>
+            <p>Yes, if you feel you need it, please let us know, as you will have to arrive 30 minutes early to have sufficient time for the numbing to take effect.</p>
+            <br>
+            <h3>Do you refund the booking fee?</h3>
+            <p>All reservations require a booking fee and are NON-REFUNDABLE under any and all circumstances or reasons. Please refer to <a href="policy.html" target="_blank">POLICY</a>.</p>
+            <br>
+            <h3>What style of tattoo do you offer?</h3>
+            <p>We offer mini, finger, and fine line, and occasional detailed designs.</p>
+            <br>
+            <h3>Do you charge for touch-up?</h3>
+            <p>Touch-up is charged based on your tattoo size and details. Starting at as low as $30.</p>
+            <br>
+            <h3>Can I workout after my procedure?</h3>
+            <p>Please refer to <a href="care.html" target="_blank">Before & Aftercare</a>.</p>
+            <br>
+            
+        </div>
+    </div>
+    </section> 
+        <!-------- footer ---------->
+
+<section class="footer">
+    <h4>Follow Us</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/anuelyllc/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/anuelyllc/"><i class="fa fa-instagram"></i></a>
+    </div>
+</section>    
+
+<!----JavaScript for toggle menu---->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script> 
+
+</body>
+</html>

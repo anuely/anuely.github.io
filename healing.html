@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anuely</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="banner-header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="https://book.squareup.com/appointments/btl9mw0viqqe2r/location/LH2NHFX5H0XHK/services" target="_blank">SERVICES</a></li>
+                    <li><a href="policy.html">POLICY</a></li>
+                    <li><a href="care.html">BEFORE & AFTERCARE</a></li>
+                    <li><a href="healing.html">STAGES OF HEALING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box-faq">
+            <a href="https://book.squareup.com/appointments/btl9mw0viqqe2r/location/LH2NHFX5H0XHK/services" target="_blank" class="bookNow-btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-------------------------- STAGES OF HEALING------------------->
+    
+    <section class="healingstages"> 
+        <h1>Stages of Healing</h1>
+            <div class="rows"> 
+
+                <div class="healing-col"> 
+                    <img src="images/BrowPhaseAvatar1_Day1.png">
+                    <p>OMG! I'm in love with my new brows. Thank you!</p>
+                </div>
+
+                <div class="healing-col">
+                    <img src="images/BrowPhaseAvatar1_Day2to4.png">
+                    <p>I don't like this color it's too dark.</p>
+                </div>
+
+                <div class="healing-col">
+                    <img src="images/BrowPhaseAvatar1_Day5to7.png">
+                    <p>Oh no! My brows are scabbing and falling off!</p>
+                </div>
+
+                <div class="healing-col">
+                    <img src="images/BrowPhaseAvatar1_Day8to10.png">
+                    <p>Ummm... My brows are gone!</p>
+                </div>
+
+                <div class="healing-col">
+                    <img src="images/BrowPhaseAvatar1_Day14to28.png">
+                    <p>Whew! My brows are coming back! Still looking a little patchy and uneven.</p>
+                </div>
+
+                <div class="healing-col">
+                    <img src="images/BrowPhaseAvatar1_Day42.png">
+                    <p>Aww... they are beautiful! I love them!</p>
+                </div>
+
+            </div>
+    </section>
+            <!-------- footer ---------->
+
+<section class="footer">
+    <h4>Follow Us</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/anuelyllc/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/anuelyllc/"><i class="fa fa-instagram"></i></a>
+    </div>
+</section>    
+
+<!----JavaScript for toggle menu---->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script> 
+
+</body>
+</html>
