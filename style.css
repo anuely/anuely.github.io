@@ -373,7 +373,7 @@ p{
 /*----------------------- check mark -----------------------*/
 .checkboxes{
     display: grid;
-    width: 400px;
+    width: 370px;
     border: none;
     outline: none;
     padding-left: 25px;
