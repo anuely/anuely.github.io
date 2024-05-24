@@ -24,7 +24,8 @@
     background-image: url(images/contactbanner.png);
     background-position: center;
     background-size: cover;
-    text-align: center;
+    position: relative;
+    overflow: hidden;
     color: #fff;
 }
 nav{
@@ -76,8 +77,18 @@ nav .fa{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.text-box-faq{
+    width: 90%;
+    color: #E01311;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 .text-box h1{
-    font-size: 52px;
+    font-size: 36px;
+    font-weight: lighter;
 }
 .bookNow-btn {
     display: inline-block;
@@ -230,6 +241,14 @@ p{
 .policy-left h2{
     color: #222;
     margin: 30px 0;
+    font-size: 36PX;
+    font-weight: lighter;
+}
+.policy-left h3{
+    color: #222;
+    margin: 30px 0;
+    font-size: 20PX;
+    font-weight: lighter;
 }
 .policy-left p{
     color: #808080;
@@ -242,11 +261,13 @@ p{
     padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
+    font-weight: lighter;
 }
 
 @media (max-width:700px){
     .sub-header h1{
         font-size: 24px;
+        font-weight: lighter;
     }
 } 
 
@@ -260,6 +281,7 @@ p{
 }
 h1{
     font-size: 36px;
+    font-weight: lighter;
     color: #e01311;
 }
 p{
@@ -315,7 +337,7 @@ p{
 .contact-left-title h2{
     font-weight: 600;
     color: #000;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 5px;
 }
 .contact-left-title hr{
